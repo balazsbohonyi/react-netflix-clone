@@ -1,11 +1,11 @@
 import Firebase from 'firebase/app';
 import 'firebase/firestore';
 import 'firebase/auth';
+
+// 1) when seeding the database you'll need to uncomment this!
 // import { seedDatabase } from '../seed';
 
-// we need to somehow seed the database;
-
-// we need a config here
+// TOOD: remove all these API keys / configuration stuff below
 const config = {
   apiKey: 'AIzaSyAjn37FdW8oeHzWX_gB2nn23zXNmYObUBw',
   authDomain: 'netflix-4077d.firebaseapp.com',
@@ -18,7 +18,8 @@ const config = {
 
 const firebase = Firebase.initializeApp(config);
 
-// dangerous line below - only execute it once when seeding the initial database
+// 2) when seeding the database you'll have to uncomment this
 // seedDatabase(firebase);
+// 3) once you have populated the database (only run once!), re-comment this so you don't get duplicate data in the databse
 
 export { firebase };
