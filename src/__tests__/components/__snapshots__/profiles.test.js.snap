@@ -44,6 +44,7 @@ exports[`<Profiles /> renders the <Profiles /> with populated data but misc prof
   >
     <li
       class="profiles__Item-bxtkkv-5 fFKdrN"
+      data-testid="user"
     >
       <img
         class="profiles__Picture-bxtkkv-4 izXQyg"

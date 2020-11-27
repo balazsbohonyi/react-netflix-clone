@@ -27,7 +27,7 @@ describe('<Profiles />', () => {
       <Profiles>
         <Profiles.Title>Who's watching?</Profiles.Title>
         <Profiles.List>
-          <Profiles.User onClick={() => {}}>
+          <Profiles.User onClick={() => {}} data-testid="user">
             <Profiles.Picture data-testid="profile-picture-misc" />
             <Profiles.Name>Balazs Bohonyi</Profiles.Name>
           </Profiles.User>

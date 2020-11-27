@@ -99,7 +99,7 @@ export const Feature = styled.div`
   background: url(${({ src }) => src});
   background-size: contain;
   position: relative;
-  height: 360px;
+  height: 450px;
   background-position-x: right;
   background-repeat: no-repeat;
   background-color: black;
